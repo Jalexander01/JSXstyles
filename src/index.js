@@ -21,11 +21,11 @@ ReactDom.render(
       Some species live in houses where they hunt insects attracted by
       artificial light.
     </p>
-    <p>{name}</p>
-
     <p>
-      Copyright {n} {getRandomInt(5)}
+      {name} x {getRandomInt(5)}
     </p>
+
+    <p>Copyright {n}</p>
   </div>,
   document.getElementById("root")
 );
